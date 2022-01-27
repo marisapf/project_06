@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src='app.js' defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+
+        <!--Players enter their names. Game greets players-->
+        <div id="your-name">Please enter your names.</div>
+
+        <div id="player-info">
+            <label for="name-one"></label>
+            <input type="text" id="name-one">
+            <button id="set-name-one">Submit</button>
+
+            <label for="name-two"></label>
+            <input type="text" id="name-two" />
+            <button id="set-name-two">Submit</button>
+        </div>
+
+        <p id="greeting-one-holder"></p>
+        <p id="greeting-two-holder"></p>
+
+        <!--Game decides who goes first-->
+        <label for="who-is-first" id="who-is-first">Who goes first?</div>
+            <button id="who-goes-first">Click here</button>
+            <p id="who-first-message"></p>
+            <p id="who-is-X-and-O"></p>
+            <p id="click-on-square">Click on a square to play.</p>
+
+            <!--Win lose or Tie message-->
+            <p id="first-line-message"></p>
+            <p id="game-result-message"></p>
+
+            <!--Message who's turn it is or if player clicks on an 'occupied' square-->
+            <p id="square-message"></p>
+
+            <!--Button to reset game-->
+            <label for="reset-game-here" id="reset-game-here">Click here to reset game.</label>
+            <button id="reset-game">reset game</button>
+
+
+            <!--Board here -->
+
+            <div id="board"></div>
+
+    </main>
+
+</body>
+
+</html>
